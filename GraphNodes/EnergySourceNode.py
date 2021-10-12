@@ -1,5 +1,5 @@
-import EnergyNode
+import energyNode
 
-class EnergySourceNode(EnergyNode):
+class EnergySourceNode(energyNode.EnergyNode):
     def __init__(self):
         print("Making energy source node")
